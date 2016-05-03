@@ -6,7 +6,7 @@ cd target
 
 To run the Server (seprate cmd windows)
 
-java -classpath dependency/*;classes com.example.Main
+java -classpath dependency/*;classes com.example.jetty.MainJettyServer
 
 to run the client
 

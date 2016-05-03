@@ -28,7 +28,7 @@ public class MainJettyServer {
 		
 		root.setContextPath("/");
 		root.setParentLoaderPriority(true);
-		final String webappDirLocation = "../src/main/webapp/"; //"../src/main/webapp/"
+		final String webappDirLocation = "../src/main/webapp/"; //"src/main/webapp/" to run in IDE use this
 		root.setDescriptor(webappDirLocation + "/WEB-INF/web.xml");
 		root.setResourceBase(webappDirLocation);
 		System.out.println("root.getResourceBase() = " + root.getResourceBase());
